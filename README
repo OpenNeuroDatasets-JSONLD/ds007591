@@ -27,3 +27,6 @@ Raw values have been converted to Volts (×1e-6).
 ## Code
 Code for data loading, preprocessing, and decoding models is available at:
 https://github.com/arayabrain/uhd-gmail-public
+
+## Additional participants (sub-4 through sub-9)
+Continuous EEG is stored in float64 EEGLAB files. Event windows are the final 6.25 seconds of the saved 11.25-second raw analysis epochs, located by exact sample matching in the continuous recording. Each window contains five 1.25-second speech repetitions. These are analysis-window timestamps, not independently measured stimulus or acoustic onset times. See run-level events.json. Trailing epochs without word labels are retained in the continuous EEG but omitted from events. Common electrode coordinates are nominal, not participant-specific.
