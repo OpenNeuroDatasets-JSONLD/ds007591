@@ -1,3 +1,5 @@
+1.0.3 2026-09-30
+  - Corrected event labels of sub-6 ses-20260518 task-overt acq-online run-01: labels were shifted by two trials after two unlabeled trials. Restored original trial indices and retained all recorded trials, including unlabeled trials as n/a. No other data changes.
 Unreleased
   - Added age and sex for sub-1 through sub-9 from the participant demographics table.
   - Corrected sub-3 ses-20230523 overt labels to subject3-1 (calibrated_2 / online_3).
